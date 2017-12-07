@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        this.saisir=(Button) findViewById(R.id.bsaisir);
+        this.saisir=(Button)findViewById(R.id.bsaisir);
         this.consulter=(Button)findViewById(R.id.bconsulter);
         this.quiz=(Button)findViewById(R.id.bquiz);
 
